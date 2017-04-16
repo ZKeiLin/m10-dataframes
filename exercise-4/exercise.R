@@ -1,7 +1,11 @@
-# Exercise 5: Gates Foundation Educational Grants
+# Exercise 4: Gates Foundation Educational Grants
 
 # Read data into a variable called `grants` using the `read.csv` function
+<<<<<<< HEAD
 grants <- read.csv('data/gates_money.csv')
+=======
+# Make sure *not* to read the strings as factors
+>>>>>>> 637aaee132c2aa668ed820ce336b0e13154dd326
 
 # Use the View function to look at your data
 View(grants)
@@ -13,8 +17,12 @@ spending <- grants$total_amount
 is.vector(spending)
 
 # Create a variable `org` as the `organization` column of the dataset.
+<<<<<<< HEAD
 # Unfortunately, it will not be a vector by default, so you must transform it using the as.vector function
 org <- grants$organization
+=======
+
+>>>>>>> 637aaee132c2aa668ed820ce336b0e13154dd326
 
 ### Now you can ask some more interesting questions about the dataset.  Store your answers in variables ###
 
